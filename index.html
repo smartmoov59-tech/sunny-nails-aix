@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunny Nails Aix — Ongles, pieds &amp; cils à Aix-en-Provence</title>
+<meta name="description" content="Sunny Nails, institut de beauté au cœur d'Aix-en-Provence : pose gel & résine, semi-permanent, nail art, beauté des pieds, extensions de cils. Du lundi au samedi, 10h–20h. Réservation en ligne 24h/24.">
+<meta name="theme-color" content="#0E3B2C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sunny Nails Aix — Ongles, pieds & cils à Aix-en-Provence">
+<meta property="og:description" content="Gel, semi-permanent, nail art, beauté des pieds, extensions de cils. 10 rue Félibre Gaut, Aix-en-Provence.">
+<meta property="og:image" content="assets/img/salon-facade.jpg">
+<meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="preload" as="image" href="assets/video/poster.jpg">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.loader{display:none!important}</style></noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "Sunny Nails Aix",
+  "description": "Institut de beauté à Aix-en-Provence : pose gel et résine, semi-permanent, nail art, beauté des pieds, extensions de cils.",
+  "telephone": "+33695683748",
+  "priceRange": "€€",
+  "image": "assets/img/salon-facade.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10 Rue Félibre Gaut",
+    "postalCode": "13100",
+    "addressLocality": "Aix-en-Provence",
+    "addressCountry": "FR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 43.5293176, "longitude": 5.4465062 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "20:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/sunny_nails_aix/"],
+  "hasMap": "https://www.google.com/maps/place/Sunny+nails+aix/@43.5293176,5.4465062,17z"
+}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<!-- Formes réutilisables : l'ongle « amande » (clin d'œil au calisson d'Aix) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <clipPath id="almond" clipPathUnits="objectBoundingBox">
+      <path d="M0.5,0 C0.80,0 0.99,0.30 1,0.60 L1,1 L0,1 L0,0.60 C0.01,0.30 0.20,0 0.5,0 Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<!-- Préchargeur -->
+<div class="loader" aria-hidden="true">
+  <div class="loader__half loader__half--top"></div>
+  <div class="loader__half loader__half--bot"></div>
+  <div class="loader__center">
+    <div class="loader__sun" data-sun></div>
+    <div class="loader__word"><span>Sunny</span><em>Nails</em></div>
+    <div class="loader__count"><span id="loaderCount">0</span><small>%</small></div>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" aria-label="Sunny Nails Aix, retour en haut">
+    <span class="nav__sun" data-sun aria-hidden="true"></span>
+    <span class="nav__name">Sunny <em>Nails</em></span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#savoir-faire" data-underline>Savoir-faire</a>
+    <a href="#prestations" data-underline>Prestations</a>
+    <a href="#tarifs" data-underline>Tarifs</a>
+    <a href="#galerie" data-underline>Galerie</a>
+    <a href="#avis" data-underline>Avis</a>
+    <a href="#acces" data-underline>Accès</a>
+  </nav>
+  <a class="btn btn--gold btn--sm nav__cta" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener" data-magnetic><span class="btn__t">Réserver</span></a>
+  <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" inert aria-label="Menu">
+  <nav class="menu__links">
+    <a href="#savoir-faire"><small>01</small>Savoir-faire</a>
+    <a href="#prestations"><small>02</small>Prestations</a>
+    <a href="#tarifs"><small>03</small>Tarifs</a>
+    <a href="#galerie"><small>04</small>Galerie</a>
+    <a href="#avis"><small>05</small>Avis</a>
+    <a href="#acces"><small>06</small>Accès</a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--gold" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener"><span class="btn__t">Réserver en ligne</span></a>
+    <a href="tel:+33695683748" class="menu__tel">06 95 68 37 48</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ═════════ HERO ═════════ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="hero__media" data-hero-media>
+    <video class="hero__video" muted loop playsinline preload="metadata" poster="assets/video/poster.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="hero__shade"></div>
+  </div>
+  <div class="hero__sun" data-sun aria-hidden="true"></div>
+
+  <figure class="hero__nail hero__nail--a" data-hero-fg="1">
+    <img src="assets/img/ongles-02.jpg" width="480" height="640" alt="Ongles amande nude ornés de petites étoiles dorées" decoding="async">
+  </figure>
+  <figure class="hero__nail hero__nail--b" data-hero-fg="2">
+    <img src="assets/img/ongles-09.jpg" width="480" height="640" alt="Ongles roses avec strass et nail art en relief" decoding="async">
+  </figure>
+
+  <div class="hero__inner">
+    <p class="hero__eyebrow"><span class="dot"></span>Institut de beauté · Aix-en-Provence</p>
+    <h1 id="hero-title" class="hero__title" aria-label="Sunny Nails Aix">
+      <span class="line" data-split="chars">Sunny</span>
+      <span class="line line--em" data-split="chars">Nails</span>
+    </h1>
+    <div class="hero__foot">
+      <p class="hero__lead">Dix doigts, dix orteils, une paire de cils. Gel, semi-permanent, nail art et beauté des pieds — sous le soleil d’Aix, rue Félibre Gaut.</p>
+      <div class="hero__cta">
+        <a class="btn btn--gold" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener" data-magnetic><span class="btn__t">Réserver mon créneau</span></a>
+        <a class="btn btn--ghost" href="#tarifs" data-magnetic><span class="btn__t">Voir la carte</span></a>
+      </div>
+    </div>
+  </div>
+
+  <a class="badge" href="https://www.google.com/maps/place/Sunny+nails+aix/@43.5293176,5.4465062,17z/data=!4m6!3m5!1s0x12c98dd5faa14b5d:0x3d25e3b669107816!8m2!3d43.5293176!4d5.4465062!16s%2Fg%2F11p78_wpjz" target="_blank" rel="noopener" aria-label="Note Google : 4,3 sur 5, 113 avis">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+      <text><textPath href="#circ" startOffset="0">★ 113 avis Google · Aix-en-Provence · Ongles &amp; cils · </textPath></text>
+    </svg>
+    <span class="badge__n">4,3<small>/5</small></span>
+  </a>
+
+  <div class="hero__status" data-status aria-live="polite"><span class="pulse"></span><span data-status-text>Lun–sam · 10h–20h</span></div>
+  <div class="hero__scroll" aria-hidden="true"><span>Défiler</span><i></i></div>
+</section>
+
+<!-- ═════════ MARQUEE ═════════ -->
+<section class="marquee" aria-label="Nos spécialités" data-marquee>
+  <div class="marquee__row" data-dir="1">
+    <div class="marquee__track">
+      <ul class="marquee__group">
+        <li>Gel &amp; résine</li><li class="s" data-sun></li><li>Semi-permanent</li><li class="s" data-sun></li><li>Baby boomer</li><li class="s" data-sun></li><li>BIAB</li><li class="s" data-sun></li><li>Nail art</li><li class="s" data-sun></li><li>Chrome</li><li class="s" data-sun></li>
+      </ul>
+    </div>
+  </div>
+  <div class="marquee__row marquee__row--out" data-dir="-1">
+    <div class="marquee__track">
+      <ul class="marquee__group">
+        <li>Beauté des pieds</li><li class="s" data-sun></li><li>Extensions de cils</li><li class="s" data-sun></li><li>Manucure</li><li class="s" data-sun></li><li>French</li><li class="s" data-sun></li><li>Paillettes</li><li class="s" data-sun></li><li>Strass</li><li class="s" data-sun></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ SAVOIR-FAIRE (section pinnée) ═════════ -->
+<section class="story edge" id="savoir-faire" aria-labelledby="story-title">
+  <div class="story__head">
+    <p class="kicker">Le savoir-faire</p>
+    <h2 id="story-title" class="h2" data-split="words">Dix doigts, <em>un rituel</em></h2>
+  </div>
+  <div class="story__stage">
+    <div class="story__rail" aria-hidden="true"><span class="story__fill"></span></div>
+
+    <article class="story__step">
+      <div class="story__text">
+        <span class="story__num" aria-hidden="true">01</span>
+        <h3 class="h3">On pousse la porte</h3>
+        <p>Une enseigne vert bouteille, du lierre de part et d’autre de la vitrine, une ruelle pavée du centre d’Aix. À l’intérieur, des murs rose poudré, du marbre blanc et des suspensions dorées : un petit cocon où l’on prend d’abord le temps de parler de votre envie — longueur, forme, couleur.</p>
+      </div>
+      <div class="story__media nail"><img src="assets/img/salon-facade.jpg" width="1800" height="1350" alt="Façade du salon Sunny Nails, enseigne verte et lierre, rue Félibre Gaut à Aix-en-Provence" loading="lazy"></div>
+    </article>
+
+    <article class="story__step">
+      <div class="story__text">
+        <span class="story__num" aria-hidden="true">02</span>
+        <h3 class="h3">Le mur des couleurs</h3>
+        <p>Nudes, rouges profonds, pastels, chromes, gels de construction : un mur entier de flacons attend votre choix. C’est la diversité des teintes que les clientes saluent le plus volontiers — et c’est ici que la séance commence vraiment.</p>
+      </div>
+      <div class="story__media nail"><img src="assets/img/salon-vernis.jpg" width="1800" height="1350" alt="Mur de vernis et de gels de toutes les couleurs dans le salon" loading="lazy"></div>
+    </article>
+
+    <article class="story__step">
+      <div class="story__text">
+        <span class="story__num" aria-hidden="true">03</span>
+        <h3 class="h3">La pose, main sûre</h3>
+        <p>Gel ou résine sur ongle naturel — sans capsule —, BIAB, baby boomer, french ou semi-permanent. Amande, stiletto, coffin, carré : la prothésiste ongulaire sculpte la forme, lime, pose, polymérise. Vous restez les mains tranquilles, on s’occupe du reste.</p>
+      </div>
+      <div class="story__media nail"><img src="assets/img/salon-interieur-2.jpg" width="1800" height="1350" alt="Les tables de manucure du salon, lampes et rangées de vernis au fond" loading="lazy"></div>
+    </article>
+
+    <article class="story__step">
+      <div class="story__text">
+        <span class="story__num" aria-hidden="true">04</span>
+        <h3 class="h3">Le détail qui change tout</h3>
+        <p>Un liseré de french, un voile de paillettes, un effet chrome, un strass posé à la pince, un petit cœur sur l’annulaire. Le nail art se choisit à la carte, ongle par ongle — c’est ce qui rend un set unique, et un peu signé Sunny.</p>
+      </div>
+      <div class="story__media nail"><img src="assets/img/ongles-rouges.jpg" width="2000" height="1338" alt="Ongles amande rouges ornés de petits cœurs blancs, posés sur une pochette vert émeraude" loading="lazy"></div>
+    </article>
+  </div>
+</section>
+
+<!-- ═════════ PRESTATIONS (défilement horizontal) ═════════ -->
+<section class="hs edge" id="prestations" aria-labelledby="hs-title">
+  <div class="hs__pin">
+    <div class="hs__track" data-hs-track>
+      <div class="hs__intro">
+        <p class="kicker">Les prestations</p>
+        <h2 id="hs-title" class="h2" data-split="words">Des mains, des pieds, <em>des cils</em></h2>
+        <p class="hs__sub">Sept univers, du plus sage au plus fou. Faites défiler.</p>
+        <span class="hs__arrow" aria-hidden="true">→</span>
+      </div>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/ongles-06.jpg" width="480" height="640" alt="Ongles amande dégradé vert et blanc avec fleurs" data-hs-img></div>
+        <span class="hcard__no">01</span>
+        <h3>Les mains</h3>
+        <p>Manucure, vernis classique ou semi-permanent, french.</p>
+        <span class="hcard__price">dès 15 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/ongles-01.jpg" width="480" height="640" alt="Pose baby boomer en gel, dégradé rose et blanc" data-hs-img></div>
+        <span class="hcard__no">02</span>
+        <h3>Gel &amp; résine</h3>
+        <p>Pose sur ongle naturel, BIAB, baby boomer, remplissage.</p>
+        <span class="hcard__price">dès 45 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/ongles-11.jpg" width="485" height="640" alt="Ongles stiletto bleu roi avec motifs dorés" data-hs-img></div>
+        <span class="hcard__no">03</span>
+        <h3>Nail art</h3>
+        <p>Chrome, paillettes, french, strass, dessins à la main.</p>
+        <span class="hcard__price">dès 0,50 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/pieds-spa.jpg" width="700" height="1050" alt="Bain de pieds détox au sel rose dans une vasque" data-hs-img></div>
+        <span class="hcard__no">04</span>
+        <h3>Beauté des pieds</h3>
+        <p>Fauteuil massage, détox au sel, gommage sans rasoir, gainage aux algues, masques.</p>
+        <span class="hcard__price">dès 45 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/pieds-fleurs.jpg" width="700" height="1050" alt="Pieds dans un bain de lait et de pétales de fleurs" data-hs-img></div>
+        <span class="hcard__no">05</span>
+        <h3>Mains + pieds</h3>
+        <p>Le set complet, de la manucure au vernis des orteils.</p>
+        <span class="hcard__price">dès 40 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/cils.jpg" width="1500" height="1000" alt="Pose d'extensions de cils à la brosse bleue" data-hs-img></div>
+        <span class="hcard__no">06</span>
+        <h3>Extensions de cils</h3>
+        <p>Cil à cil, remplissage à trois semaines, dépose.</p>
+        <span class="hcard__price">dès 20 €</span><span class="glare"></span>
+      </article>
+
+      <article class="hcard" data-tilt>
+        <div class="hcard__img nail"><img src="assets/img/pieds-homme.jpg" width="1200" height="800" alt="Bain de pieds au sel pour homme" data-hs-img></div>
+        <span class="hcard__no">07</span>
+        <h3>Pour lui</h3>
+        <p>Manucure homme et beauté des pieds complète, avec le même soin du détail.</p>
+        <span class="hcard__price">dès 20 €</span><span class="glare"></span>
+      </article>
+
+      <div class="hs__outro">
+        <p>Une envie précise&nbsp;?</p>
+        <a class="btn btn--gold" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener" data-magnetic><span class="btn__t">Réserver en ligne</span></a>
+        <a class="btn btn--ghost-dark" href="#tarifs" data-magnetic><span class="btn__t">Toute la carte</span></a>
+      </div>
+    </div>
+    <div class="hs__bar" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- ═════════ CHIFFRES CLÉS ═════════ -->
+<section class="stats edge" aria-label="Chiffres clés">
+  <div class="stats__sun" data-sun aria-hidden="true"></div>
+  <div class="stats__grid">
+    <div class="stat"><span class="stat__n"><b data-count="4.3" data-dec="1">4,3</b><small>/5</small></span><span class="stat__l">note moyenne sur Google</span></div>
+    <div class="stat"><span class="stat__n"><b data-count="113">113</b></span><span class="stat__l">avis laissés par les clientes</span></div>
+    <div class="stat"><span class="stat__n"><b data-count="35">35</b></span><span class="stat__l">prestations à la carte</span></div>
+    <div class="stat"><span class="stat__n"><b data-count="60">60</b><small>h</small></span><span class="stat__l">d’ouverture par semaine, du lundi au samedi</span></div>
+  </div>
+</section>
+
+<!-- ═════════ LA CARTE (tarifs + sélection) ═════════ -->
+<section class="carte" id="tarifs" aria-labelledby="carte-title">
+  <div class="carte__side">
+    <p class="kicker">Les tarifs</p>
+    <h2 id="carte-title" class="h2" data-split="words">La carte, <em>sans surprise</em></h2>
+    <p class="carte__intro">Tous les prix sont affichés. Ajoutez vos envies pour estimer le total et la durée, puis réservez en ligne — ou envoyez votre sélection par SMS.</p>
+
+    <aside class="sel" id="sel" aria-label="Ma sélection">
+      <div class="sel__head"><h3>Ma sélection</h3><button class="sel__clear" id="selClear" type="button" hidden>Tout effacer</button></div>
+      <ul class="sel__list" id="selList"><li class="sel__empty">Rien pour l’instant — touchez le « + » d’une prestation.</li></ul>
+      <dl class="sel__total">
+        <div><dt>Total estimé</dt><dd id="selPrice">0 €</dd></div>
+        <div><dt>Durée estimée</dt><dd id="selTime">—</dd></div>
+      </dl>
+      <div class="sel__cta">
+        <a class="btn btn--gold" id="selPlanity" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener"><span class="btn__t">Réserver sur Planity</span></a>
+        <a class="btn btn--ghost-dark" id="selSms" href="sms:+33695683748"><span class="btn__t">M’écrire par SMS</span></a>
+      </div>
+      <p class="sel__note">Réservation en ligne 24h/24, confirmation immédiate, paiement sur place.</p>
+    </aside>
+  </div>
+
+  <div class="carte__main">
+    <div class="tabs" role="tablist" aria-label="Catégories de prestations" id="tabs"></div>
+    <div class="carte__panel" id="carte" role="tabpanel" aria-live="polite"></div>
+    <p class="carte__foot">Tarifs indicatifs relevés sur la page de réservation en ligne du salon ; ils sont confirmés au moment de la réservation.</p>
+  </div>
+</section>
+
+<!-- ═════════ LE LIEU (révélation circulaire) ═════════ -->
+<section class="lieu edge" aria-labelledby="lieu-title">
+  <div class="lieu__text">
+    <p class="kicker">L’adresse</p>
+    <h2 id="lieu-title" class="h2" data-split="words">Une enseigne verte <em>dans la pierre d’Aix</em></h2>
+    <p>Pierre dorée, ruelle pavée, un grand lierre : le salon se glisse dans une façade du centre d’Aix-en-Provence. Trois collaborateurs vous y reçoivent, du lundi au samedi, de dix heures à vingt heures.</p>
+    <ul class="lieu__facts">
+      <li><b>3</b> collaborateurs</li>
+      <li><b>10h–20h</b> du lundi au samedi</li>
+      <li><b>24/7</b> réservation en ligne</li>
+    </ul>
+  </div>
+  <div class="lieu__visual" data-circle>
+    <div class="lieu__img"><img src="assets/img/salon-rue.jpg" width="1800" height="1350" alt="La rue Félibre Gaut à Aix-en-Provence avec l'enseigne Sunny Nails" loading="lazy" data-kenburns></div>
+    <div class="lieu__tag" data-sun-badge><span data-sun></span>10 rue Félibre Gaut</div>
+  </div>
+  <figure class="lieu__inset nail" data-parallax="-40">
+    <img src="assets/img/salon-interieur-1.jpg" width="1800" height="1350" alt="L'intérieur du salon : sol en marbre, murs rose poudré, fleurs rouges et suspensions" loading="lazy">
+  </figure>
+</section>
+
+<!-- ═════════ GALERIE ═════════ -->
+<section class="gallery edge" id="galerie" aria-labelledby="gal-title">
+  <div class="gallery__head">
+    <p class="kicker">La galerie</p>
+    <h2 id="gal-title" class="h2" data-split="words">Les mains <em>qui parlent</em></h2>
+    <p class="gallery__sub">Quelques créations récentes, tout droit de l’atelier. Touchez une photo pour l’agrandir.</p>
+  </div>
+  <div class="gallery__cols" data-gallery>
+    <div class="gcol" data-speed="0">
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Baby boomer, dégradé rose &amp; blanc"><img src="assets/img/ongles-01.jpg" width="480" height="640" alt="Pose baby boomer sur ongles amande, dégradé rose et blanc" loading="lazy"><span class="glare"></span><span class="gitem__cap">Baby boomer rose &amp; blanc</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Rouge pailleté et flocons"><img src="assets/img/ongles-05.jpg" width="480" height="640" alt="Ongles amande rouge pailleté avec flocons et papillons blancs" loading="lazy"><span class="glare"></span><span class="gitem__cap">Rouge pailleté, flocons</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Rose et strass"><img src="assets/img/ongles-09.jpg" width="480" height="640" alt="Ongles roses ornés de strass et de petits motifs" loading="lazy"><span class="glare"></span><span class="gitem__cap">Rose &amp; strass</span></button>
+    </div>
+    <div class="gcol" data-speed="0.14">
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Amande nude, étoiles dorées"><img src="assets/img/ongles-02.jpg" width="480" height="640" alt="Ongles amande nude ornés d'étoiles dorées" loading="lazy"><span class="glare"></span><span class="gitem__cap">Nude &amp; étoiles dorées</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Dégradé vert et fleurs"><img src="assets/img/ongles-06.jpg" width="480" height="640" alt="Ongles dégradé vert et blanc avec fleurs et dessin fin" loading="lazy"><span class="glare"></span><span class="gitem__cap">Dégradé vert &amp; fleurs</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Chocolat et étoile blanche"><img src="assets/img/ongles-10.jpg" width="480" height="640" alt="Ongles coffin chocolat avec étoile blanche" loading="lazy"><span class="glare"></span><span class="gitem__cap">Chocolat &amp; étoile</span></button>
+    </div>
+    <div class="gcol" data-speed="0.05">
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Noël en vert sapin"><img src="assets/img/ongles-03.jpg" width="480" height="640" alt="Ongles de Noël vert sapin avec sapins et rubans" loading="lazy"><span class="glare"></span><span class="gitem__cap">Noël, vert sapin</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Flocons givrés sur french"><img src="assets/img/ongles-07.jpg" width="480" height="640" alt="Ongles coffin french avec flocons givrés" loading="lazy"><span class="glare"></span><span class="gitem__cap">Flocons givrés</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Bleu roi et filets dorés"><img src="assets/img/ongles-11.jpg" width="485" height="640" alt="Ongles stiletto bleu roi avec filets dorés" loading="lazy"><span class="glare"></span><span class="gitem__cap">Bleu roi &amp; or</span></button>
+    </div>
+    <div class="gcol" data-speed="0.19">
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="French rouge et cœur"><img src="assets/img/ongles-04.jpg" width="606" height="640" alt="French rouge avec un petit cœur sur l'annulaire" loading="lazy"><span class="glare"></span><span class="gitem__cap">French rouge &amp; cœur</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Chrome bleu et étoiles noires"><img src="assets/img/ongles-08.jpg" width="480" height="640" alt="Ongles chrome bleu avec étoiles noires et perles" loading="lazy"><span class="glare"></span><span class="gitem__cap">Chrome &amp; étoiles</span></button>
+      <button class="gitem" data-tilt data-cursor="Voir" data-cap="Rose poudré marbré"><img src="assets/img/ongles-12.jpg" width="480" height="640" alt="Ongles stiletto roses avec cœurs et motifs marbrés" loading="lazy"><span class="glare"></span><span class="gitem__cap">Stiletto cœurs</span></button>
+    </div>
+  </div>
+  <a class="gallery__ig btn btn--ghost" href="https://www.instagram.com/sunny_nails_aix/" target="_blank" rel="noopener" data-magnetic><span class="btn__t">304 publications sur @sunny_nails_aix</span></a>
+</section>
+
+<!-- ═════════ AVIS ═════════ -->
+<section class="reviews edge" id="avis" aria-labelledby="rev-title">
+  <div class="reviews__head">
+    <p class="kicker">Les avis</p>
+    <h2 id="rev-title" class="h2" data-split="words">Elles en <em>parlent</em></h2>
+    <div class="reviews__score">
+      <span class="reviews__big">4,3</span>
+      <div>
+        <span class="stars" role="img" aria-label="4,3 étoiles sur 5">★★★★<i>★</i></span>
+        <p>113 avis Google · 4,2/5 sur Planity</p>
+      </div>
+    </div>
+  </div>
+  <div class="reviews__ctrl">
+    <button type="button" id="revPrev" aria-label="Avis précédent">←</button>
+    <button type="button" id="revNext" aria-label="Avis suivant">→</button>
+  </div>
+  <div class="reviews__track" id="revTrack" tabindex="0" aria-label="Avis des clientes, défilement horizontal">
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>Incroyable ! Déjà deux fois que je fais mes ongles ici : l’expérience a toujours été agréable et le résultat m’a toujours plu.</blockquote><figcaption><b>Sadya B.</b><span>Avis Google</span></figcaption></figure>
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>Très bon accueil. Une prothésiste ongulaire au top.</blockquote><figcaption><b>Cliente</b><span>Avis Planity · 5/5</span></figcaption></figure>
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>Personnel très agréable et à l’écoute. Je recommande cet endroit.</blockquote><figcaption><b>Cliente</b><span>Avis Planity · 4/5</span></figcaption></figure>
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>Superbe prestation !</blockquote><figcaption><b>Cliente</b><span>Avis Planity · 5/5</span></figcaption></figure>
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>J’apprécie la diversité des couleurs. Merci !</blockquote><figcaption><b>Cliente</b><span>Avis Planity · 4/5</span></figcaption></figure>
+    <figure class="rcard"><span class="rcard__q" aria-hidden="true">“</span><blockquote>It was perfect! I’ll definitely be coming back :)</blockquote><figcaption><b>Cliente</b><span>Avis Planity · 5/5</span></figcaption></figure>
+    <figure class="rcard rcard--cta"><blockquote>Vous êtes passée nous voir&nbsp;?</blockquote><a class="btn btn--gold" href="https://www.google.com/maps/place/Sunny+nails+aix/@43.5293176,5.4465062,17z/data=!4m6!3m5!1s0x12c98dd5faa14b5d:0x3d25e3b669107816!8m2!3d43.5293176!4d5.4465062!16s%2Fg%2F11p78_wpjz" target="_blank" rel="noopener"><span class="btn__t">Laisser un avis</span></a></figure>
+  </div>
+  <p class="reviews__note">Extraits d’avis publiés sur Google et Planity.</p>
+</section>
+
+<!-- ═════════ FAQ ═════════ -->
+<section class="faq" aria-labelledby="faq-title">
+  <div class="faq__head">
+    <p class="kicker">Bon à savoir</p>
+    <h2 id="faq-title" class="h2" data-split="words">Les questions <em>qu’on nous pose</em></h2>
+  </div>
+  <div class="faq__list" id="faq">
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa1" id="qb1"><span>Comment réserver&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__p" id="qa1" role="region" aria-labelledby="qb1"><div><p>En ligne sur Planity, 24h/24, avec confirmation immédiate et paiement sur place. Vous préférez parler&nbsp;? Appelez ou écrivez par SMS au 06 95 68 37 48.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa2" id="qb2"><span>Quels sont les horaires&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__p" id="qa2" role="region" aria-labelledby="qb2"><div><p>Du lundi au samedi, de 10h à 20h. Le salon est fermé le dimanche.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa3" id="qb3"><span>Comment se passe la beauté des pieds&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__p" id="qa3" role="region" aria-labelledby="qb3"><div><p>Vous vous installez dans le fauteuil massage pour un bain détox au sel de Thompson, suivi d’un massage traditionnel, d’un gommage qui élimine les peaux mortes sans rasoir et de manière non invasive, d’un gainage aux algues exfoliantes et de masques. Le tout se termine par un vernis ou un semi-permanent : 1h pour 60 €, ou une version plus courte de 45 min pour 45 €.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa4" id="qb4"><span>Puis-je faire retirer mon ancien set&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__p" id="qa4" role="region" aria-labelledby="qb4"><div><p>Oui. La dépose se fait à la ponceuse : 10 € pour du semi-permanent, 20 € pour du gel ou des faux ongles. Elle est proposée aux clientes qui souhaitent une repose, ou dont la pose a été faite au salon.</p></div></div>
+    </div>
+    <div class="qa">
+      <h3><button type="button" aria-expanded="false" aria-controls="qa5" id="qb5"><span>Y a-t-il des soins pour les hommes&nbsp;?</span><i aria-hidden="true"></i></button></h3>
+      <div class="qa__p" id="qa5" role="region" aria-labelledby="qb5"><div><p>Bien sûr : manucure homme à 20 €, et beauté des pieds complète (fauteuil massage, massage traditionnel, gommage, gainage) à 55 €.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ APPEL À L'ACTION ═════════ -->
+<section class="cta edge" id="reserver" aria-labelledby="cta-title">
+  <div class="cta__sun" data-sun aria-hidden="true"></div>
+  <div class="cta__nailwrap" aria-hidden="true">
+    <svg class="cta__nail" viewBox="0 0 200 300">
+      <defs>
+        <clipPath id="nailClip"><path d="M100,6 C158,6 196,76 198,150 L198,290 L2,290 L2,150 C4,76 42,6 100,6Z"/></clipPath>
+        <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+      </defs>
+      <g clip-path="url(#nailClip)">
+        <rect width="200" height="300" class="cta__fill"/>
+        <rect x="26" y="40" width="34" height="230" rx="17" fill="url(#shine)"/>
+        <rect y="262" width="200" height="40" fill="#000" opacity=".12"/>
+      </g>
+    </svg>
+  </div>
+  <div class="cta__inner">
+    <p class="kicker kicker--light">Votre tour</p>
+    <h2 id="cta-title" class="h2 h2--xl" data-split="words">Choisissez <em>votre teinte</em></h2>
+    <p class="cta__lead">Forme amande, comme un calisson — ou la forme de votre choix. Réservez en ligne en deux minutes ou passez un coup de fil, on s’occupe du reste.</p>
+    <div class="swatches" role="radiogroup" aria-label="Choisir une teinte pour l'ongle" id="swatches">
+      <button type="button" role="radio" aria-checked="true" aria-label="Calisson" data-c="#F0C9CF" data-n="Calisson" style="--c:#F0C9CF"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Bordeaux" data-c="#9B2236" data-n="Bordeaux" style="--c:#9B2236"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Vert olivier" data-c="#6E7B3F" data-n="Vert olivier" style="--c:#6E7B3F"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Lavande" data-c="#A593D3" data-n="Lavande" style="--c:#A593D3"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Bleu roi" data-c="#2443A8" data-n="Bleu roi" style="--c:#2443A8"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Or soleil" data-c="#D9A93F" data-n="Or soleil" style="--c:#D9A93F"></button>
+      <button type="button" role="radio" aria-checked="false" aria-label="Pierre d'Aix" data-c="#D8B393" data-n="Pierre d'Aix" style="--c:#D8B393"></button>
+    </div>
+    <p class="swatch__name" id="swName" aria-live="polite">Calisson</p>
+    <div class="cta__btns">
+      <a class="btn btn--gold btn--lg" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener" data-magnetic><span class="btn__t">Réserver en ligne</span></a>
+      <a class="btn btn--ghost btn--lg" href="tel:+33695683748" data-magnetic><span class="btn__t">Appeler le 06 95 68 37 48</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ ACCÈS ═════════ -->
+<section class="find" id="acces" aria-labelledby="find-title">
+  <div class="find__info">
+    <p class="kicker">Nous trouver</p>
+    <h2 id="find-title" class="h2" data-split="words">Rue <em>Félibre Gaut</em></h2>
+    <address>
+      <p><b>Sunny Nails Aix</b><br>10 rue Félibre Gaut<br>13100 Aix-en-Provence</p>
+      <p><a href="tel:+33695683748" data-underline>06 95 68 37 48</a><br><a href="https://www.instagram.com/sunny_nails_aix/" target="_blank" rel="noopener" data-underline>@sunny_nails_aix</a></p>
+    </address>
+    <h3 class="find__h">Horaires</h3>
+    <ul class="hours" id="hours">
+      <li data-d="1"><span>Lundi</span><span>10h – 20h</span></li>
+      <li data-d="2"><span>Mardi</span><span>10h – 20h</span></li>
+      <li data-d="3"><span>Mercredi</span><span>10h – 20h</span></li>
+      <li data-d="4"><span>Jeudi</span><span>10h – 20h</span></li>
+      <li data-d="5"><span>Vendredi</span><span>10h – 20h</span></li>
+      <li data-d="6"><span>Samedi</span><span>10h – 20h</span></li>
+      <li data-d="0"><span>Dimanche</span><span>Fermé</span></li>
+    </ul>
+    <a class="btn btn--dark" href="https://www.google.com/maps/place/Sunny+nails+aix/@43.5293176,5.4465062,17z/data=!4m6!3m5!1s0x12c98dd5faa14b5d:0x3d25e3b669107816!8m2!3d43.5293176!4d5.4465062!16s%2Fg%2F11p78_wpjz" target="_blank" rel="noopener" data-magnetic><span class="btn__t">Ouvrir dans Google Maps</span></a>
+  </div>
+  <div class="find__map">
+    <iframe title="Carte Google Maps : Sunny Nails Aix, 10 rue Félibre Gaut, Aix-en-Provence" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Sunny+Nails+Aix,+10+Rue+F%C3%A9libre+Gaut,+13100+Aix-en-Provence&amp;hl=fr&amp;z=17&amp;output=embed"></iframe>
+  </div>
+</section>
+
+</main>
+
+<!-- ═════════ FOOTER ═════════ -->
+<footer class="footer" id="footer">
+  <div class="footer__top">
+    <div class="footer__col">
+      <h3>Naviguer</h3>
+      <a href="#savoir-faire" data-underline>Savoir-faire</a>
+      <a href="#prestations" data-underline>Prestations</a>
+      <a href="#tarifs" data-underline>Tarifs</a>
+      <a href="#galerie" data-underline>Galerie</a>
+      <a href="#avis" data-underline>Avis</a>
+    </div>
+    <div class="footer__col">
+      <h3>Contact</h3>
+      <a href="tel:+33695683748" data-underline>06 95 68 37 48</a>
+      <a href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener" data-underline>Réserver sur Planity</a>
+      <a href="https://www.instagram.com/sunny_nails_aix/" target="_blank" rel="noopener" data-underline>Instagram</a>
+    </div>
+    <div class="footer__col">
+      <h3>Adresse</h3>
+      <p>10 rue Félibre Gaut<br>13100 Aix-en-Provence<br>Lun–sam · 10h–20h</p>
+    </div>
+  </div>
+  <div class="footer__word" aria-hidden="true"><span data-split="chars">SUNNY NAILS</span></div>
+  <div class="footer__bottom">
+    <span>© 2026 Sunny Nails Aix</span>
+    <span>Photos du salon et créations : Sunny Nails Aix · Vidéo et photos d’ambiance : <a href="https://www.pexels.com" target="_blank" rel="noopener" data-underline>Pexels</a></span>
+  </div>
+</footer>
+
+<!-- Barre d'action mobile -->
+<div class="fab" id="fab">
+  <a class="fab__call" href="tel:+33695683748" aria-label="Appeler le salon">Appeler</a>
+  <a class="fab__book" href="https://www.planity.com/sunny-nails-aix-13100-aix-en-provence" target="_blank" rel="noopener">Réserver</a>
+</div>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox" aria-label="Photo agrandie">
+  <button type="button" class="lightbox__close" id="lbClose" aria-label="Fermer">×</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Photo précédente">←</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button type="button" class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Photo suivante">→</button>
+</dialog>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
