@@ -240,7 +240,7 @@ html.lenis, html.lenis body { height: auto; }
 .badge text { font: 600 12.5px var(--ff-b); letter-spacing: .2em; text-transform: uppercase; fill: currentColor; }
 .badge__n { font-family: var(--ff-d); font-size: clamp(1.9rem, 3vw, 2.8rem); line-height: 1; color: var(--or-2); }
 .badge__n small { font-size: .45em; color: var(--creme); margin-left: .1em; }
-.hero__scroll { position: absolute; z-index: 3; left: 50%; bottom: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: .5rem; font-size: .68rem; letter-spacing: .25em; text-transform: uppercase; opacity: .75; }
+.hero__scroll { position: absolute; z-index: 3; right: calc(var(--pad) + clamp(112px, 11vw, 150px) + 2.4rem); bottom: clamp(1.6rem, 6vh, 3.6rem); display: flex; flex-direction: column; align-items: center; gap: .5rem; font-size: .68rem; letter-spacing: .25em; text-transform: uppercase; opacity: .75; }
 .hero__scroll i { width: 1px; height: 2.2rem; background: linear-gradient(var(--or), transparent); transform-origin: top; animation: drip 2.2s var(--ease) infinite; }
 @keyframes drip { 0% { transform: scaleY(0); } 60% { transform: scaleY(1); opacity: 1; } 100% { transform: scaleY(1); opacity: 0; } }
 
